@@ -104,12 +104,27 @@ position: absolute; left: 0; top:80px;
 }
 /* inizio seconda row */
 .grigio {
-    background-color: grey;
+    background-color: #f9f9f9;
 }
 .riga-grigia {
     height: 120px;
-    background-color: lightgrey;
+    background-color: #f9f9f9;
+    text-align: center;
 }
+.riga-grigia h3 {
+    font-family: 'Alata', sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    padding-top: 23px;
+}
+.riga-grigia p {
+    font-family: 'Alata', sans-serif;
+    color: #999c9f;
+    font-weight: lighter;
+    font-size: 18px;
+}
+/* inizio terza row */
+
 .bianco {
     background-color: white;
 }
