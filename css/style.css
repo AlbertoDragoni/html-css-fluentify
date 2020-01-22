@@ -19,17 +19,32 @@
     background-color: red;
 }
 header {
-    height: 70px;
-    background-color: orange;
+    height: 80px;
+    background-color: #0d325a;
+}
+.logo {
+    margin-top: 40px;
+    display: inline;
+}
+img {
+    margin-top: 15px;
+}
+ul {
+    display: inline-block;
+}
+li {
+    font-size: 14px;
+    font-weight: bolder;
+    color: white;
+    display: inline-block;
 }
 .banner {
     height: 500px;
-    background-image: image();
+    background-image: url(https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png);
 }
 .grigio {
     background-color: grey;
 }
-
 .riga-grigia {
     height: 100px;
     background-color: lightgrey;
