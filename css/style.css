@@ -17,7 +17,7 @@
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: red;
+    background-color: #0d325a;
 }
 header {
     height: 80px;
@@ -27,7 +27,7 @@ header {
     margin-top: 40px;
     display: inline;
 }
-img {
+.logo img {
     margin-top: 15px;
 }
 ul {
@@ -77,13 +77,37 @@ li {
 /* inizio banner */
 .banner {
     height: 500px;
+    background-size: cover;
     background-image: url(https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png);
+    position: relative;
 }
+.contenuto {
+position: absolute; left: 0; top:80px;
+}
+.scritta-centrale {
+    font-family: 'Alata', sans-serif;
+    font-size: 22px;
+    color: white;
+}
+.piano-b {
+    font-family: 'Alata', sans-serif;
+    padding: 10px 24px;
+    font-size: 12px;
+    font-weight: bolder;
+    color: white;
+    border: 1px solid #7fb802;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #7fb802;
+    display: inline-block;
+    margin-top: 40px;
+}
+/* inizio seconda row */
 .grigio {
     background-color: grey;
 }
 .riga-grigia {
-    height: 100px;
+    height: 120px;
     background-color: lightgrey;
 }
 .bianco {
